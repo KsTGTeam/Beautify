@@ -1,0 +1,6 @@
+css:
+- css/*
+js:
+- js/*
+documentation:
+- docs/*
