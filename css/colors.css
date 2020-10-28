@@ -1,69 +1,98 @@
 /* Colors */
 .amber,
 .hover-amber:hover { color: #000 !important; background-color: #ffc107 !important; }
+
 .aqua,
 .hover-aqua:hover { color: #000 !important; background-color: #0ff !important; }
+
 .blue,
 .hover-blue:hover { color: #fff !important; background-color: #2196f3 !important; }
+
 .light-blue,
 .hover-light-blue:hover { color: #000 !important; background-color: #87ceeb !important; }
+
 .brown,
 .hover-brown:hover { color: #fff !important; background-color: #795548 !important; }
+
 .cyan,
 .hover-cyan:hover { color: #000 !important; background-color: #00bcd4 !important; }
+
 .blue-grey,
 .hover-blue-grey:hover,
 .w3-blue-gray,
 .hover-blue-gray:hover { color: #fff !important; background-color: #607d8b !important; }
+
 .green,
 .hover-green:hover { color: #fff !important; background-color: #4caf50 !important; }
+
 .light-green,
 .hover-light-green:hover { color: #000 !important; background-color: #8bc34a !important; }
+
 .indigo,
 .hover-indigo:hover { color: #fff !important; background-color: #3f51b5 !important; }
+
 .khaki,
 .hover-khaki:hover { color: #000 !important; background-color: #f0e68c !important; }
+
 .lime,
 .hover-lime:hover { color: #000 !important; background-color: #cddc39 !important; }
+
 .orange,
 .hover-orange:hover { color: #000 !important; background-color: #ff9800 !important; }
+
 .deep-orange,
 .hover-deep-orange:hover { color: #fff !important; background-color: #ff5722 !important; }
+
 .pink,
 .hover-pink:hover { color: #fff !important; background-color: #e91e63 !important; }
+
 .purple,
 .hover-purple:hover { color: #fff !important; background-color: #9c27b0 !important; }
+
 .deep-purple,
 .hover-deep-purple:hover { color: #fff !important; background-color: #673ab7 !important; }
+
 .red,
 .hover-red:hover { color: #fff !important; background-color: #f44336 !important; }
+
 .sand,
 .hover-sand:hover { color: #000 !important; background-color: #fdf5e6 !important; }
+
 .teal,
 .hover-teal:hover { color: #fff !important; background-color: #009688 !important; }
+
 .yellow,
 .hover-yellow:hover { color: #000 !important; background-color: #ffeb3b !important; }
+
 .white,
 .hover-white:hover { color: #000 !important; background-color: #fff !important; }
+
 .black,
 .hover-black:hover { color: #fff !important; background-color: #000 !important; }
+
 .grey,
 .hover-grey:hover,
 .w3-gray,
 .hover-gray:hover { color: #000 !important; background-color: #9e9e9e !important; }
+
 .light-grey,
 .hover-light-grey:hover,
 .w3-light-gray,
 .hover-light-gray:hover { color: #000 !important; background-color: #f1f1f1 !important; }
+
 .dark-grey,
 .hover-dark-grey:hover,
 .w3-dark-gray,
 .hover-dark-gray:hover { color: #fff !important; background-color: #616161 !important; }
+
 .pale-red,
 .hover-pale-red:hover { color: #000 !important; background-color: #fdd !important; }
+
 .pale-green,
 .hover-pale-green:hover { color: #000 !important; background-color: #dfd !important; }
+
 .pale-yellow,
 .hover-pale-yellow:hover { color: #000 !important; background-color: #ffc !important; }
+
 .pale-blue,
 .hover-pale-blue:hover { color: #000 !important; background-color: #dff !important; }
