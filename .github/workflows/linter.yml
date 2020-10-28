@@ -1,0 +1,31 @@
+
+name: Lint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+      
+      - name: install stylelinter
+        uses: actions-hub/stylelint@v1.1.2
+      
+      - name: Run linters
+        uses: wearerequired/lint-action@v1
+        with:
+          github_token: ${{ secrets.GITHUBTOKEN }}
+          stylelint: true
+          auto_fix: true
+          commit_message: "Fix code style issues with ${linter}"
+ 
+
+    
