@@ -21,6 +21,7 @@
     border-radius : 4px;
 }
 
+
 .btn:hover {
     box-shadow : 0 8px 16px 0 rgba(
         0,
@@ -36,6 +37,7 @@
     );
 }
 
+
 .btn,
 .button {
     -webkit-touch-callout : none;
@@ -45,6 +47,7 @@
     -ms-user-select : none;
     user-select : none;
 }
+
 
 .disabled,
 .btn:disabled,
@@ -58,6 +61,7 @@
     pointer-events : none;
 }
 
+
 .btn.disabled:hover,
 .btn:disabled:hover,
 .button.disabled:hover,
@@ -65,14 +69,18 @@
     box-shadow : none;
 }
 
+
 .block {
     display : block;
     width : 100%;
 }
 
+
+
 .circle {
     border-radius : 50%;
 }
+
 
 .round-small {
     border-radius : 2px;
