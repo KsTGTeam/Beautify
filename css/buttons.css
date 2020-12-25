@@ -1,135 +1,43 @@
-.btn,
-.button {
-
-    border: 1px solid transparent;
-
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.btn {
     display: inline-block;
-
-    padding: 8px 16px;
-
-    vertical-align: middle;
-
-    overflow: hidden;
-
-    text-decoration: none;
-
-    color: inherit;
-
-    background-color: inherit;
-
+    color: #555;
     text-align: center;
-
-    cursor: pointer;
-
+    text-decoration: none;
     white-space: nowrap;
-
-    margin-bottom: 0;
-
-    font-weight: normal;
-
-    -ms-touch-action: manipulation;
-
-    touch-action: manipulation;
-
-    background-image: none;
-
-    font-size: 14px;
-
-    line-height: 1.42857143;
-
+    background-color: transparent;
     border-radius: 4px;
-}
-
-.btn:hover {
-
-    box-shadow:
-        0 8px 16px 0 rgba(
-            0,
-            0,
-            0,
-            0.2
-        ),
-        0 6px 20px 0 rgba(
-            0,
-            0,
-            0,
-            0.19
-        );
-}
-
-.btn,
-.button {
-
-    -webkit-touch-callout: none;
-
-    -webkit-user-select: none;
-
-    -khtml-user-select: none;
-
-    -moz-user-select: none;
-
-    -ms-user-select: none;
-
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: middle;
+    -webkit-user-drag: none;
     user-select: none;
 }
 
-.disabled,
-.btn:disabled,
-.button:disabled {
-
-    cursor: not-allowed;
-
-    opacity: 0.3;
+.btn:hover,
+.btn:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0;
 }
 
-.disabled *,
-:disabled * {
-
-    pointer-events: none;
+.btn.primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
 }
 
-.btn.disabled:hover,
-.btn:disabled:hover,
-.button.disabled:hover,
-.button:disabled:hover {
-
-    box-shadow: none;
+.btn.primary:hover,
+.btn.primary:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
 }
 
-.block {
-
-    display: block;
-
-    width: 100%;
-}
-
-.circle {
-
-    border-radius: 50%;
-}
-
-.round-small {
-
-    border-radius: 2px;
-}
-
-.round,
-.round-medium {
-
-    border-radius: 4px;
-}
-
-.round-large {
-
-    border-radius: 8px;
-}
-
-.round-xlarge {
-
-    border-radius: 16px;
-}
-
-.round-xxlarge {
-
-    border-radius: 32px;
+/* Firefox: Get rid of the inner focus border */
+.btn::-moz-focus-inner {
+    padding: 0;
+    border: 0;
 }
