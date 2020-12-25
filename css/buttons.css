@@ -1,5 +1,6 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .btn {
     display: inline-block;
     color: #555;
@@ -24,19 +25,20 @@
 }
 
 .btn.primary {
-    color: #FFF;
-    background-color: #33C3F0;
-    border-color: #33C3F0;
+    color: #fff;
+    background-color: #33c3f0;
+    border-color: #33c3f0;
 }
 
 .btn.primary:hover,
 .btn.primary:focus {
-    color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB;
+    color: #fff;
+    background-color: #1eaedb;
+    border-color: #1eaedb;
 }
 
 /* Firefox: Get rid of the inner focus border */
+
 .btn::-moz-focus-inner {
     padding: 0;
     border: 0;
