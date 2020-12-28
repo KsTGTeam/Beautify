@@ -8,7 +8,7 @@
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     background-color: transparent; /* Add a background color */
     border-radius: 2px; /* Rounded border */
-    outline: none; /* Remove border on select*/
+    outline: none; /* Remove border on select */
 }
 
 .btn:hover,
