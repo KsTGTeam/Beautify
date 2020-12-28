@@ -2,39 +2,28 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .btn {
-    display: inline-block;
-    color: #555;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: transparent;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-    cursor: pointer;
-    box-sizing: border-box;
-    vertical-align: middle;
-    -webkit-user-drag: none;
-    user-select: none;
+    border: none; /* Remove borders */
+    color: black; /* Add a text color */
+    padding: 1em 2em; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: transparent; /* Add a background color */
+    border-radius: 2px; /* Rounded border */
+    outline: none; /* Remove border on select*/
 }
 
 .btn:hover,
 .btn:focus {
-    color: #333;
-    border-color: #888;
-    outline: 0;
+    background-color: #e6e6e680; /* Change a background color */
 }
 
 .btn.primary {
     color: #fff;
-    background-color: #33c3f0;
-    border-color: #33c3f0;
+    background-color: #00bdd6;
 }
 
 .btn.primary:hover,
 .btn.primary:focus {
-    color: #fff;
-    background-color: #1eaedb;
-    border-color: #1eaedb;
+    background-color: #0095a8;
 }
 
 /* Firefox: Get rid of the inner focus border */
