@@ -4,7 +4,7 @@
 .btn {
     border: none; /* Remove borders */
     color: black; /* Add a text color */
-    padding: 1em 2em; /* Add some padding */
+    padding: 0.5em 1em; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     background-color: transparent; /* Add a background color */
     border-radius: 2px; /* Rounded border */
